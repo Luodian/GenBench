@@ -1,5 +1,4 @@
-# GenBench
-Benchmarking and Analyzing Generative Data for Visual Recognition
+# GenBench: Benchmarking and Analyzing Generative Data for Visual Recognition
 
 The machine learning (ML) community has a history of successfully constructing and utilizing datasets for artificial intelligence (AI) systems. 
 
