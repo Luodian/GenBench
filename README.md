@@ -3,10 +3,14 @@
 ## Motivation and TLDR
 Machine learning (ML) community has successfully utilized datasets, though their creation often demands substantial time and resources. Despite this, there's a lack of efficient, open data engineering tools to streamline these processes, leading to increased costs. This prompts an exploration into the potential benefits of generative data, a topic investigated in this paper.
 
-With the repo, you can easily 
+With the repo, you can easily:
+
 (1) sample images from generative models;
+
 (2) pack images for various evaluations;
+
 (3) run CLER score/Elevater evaluations;
+
 (4) analyze images with other metrics (FID, CLIP score, proxy-A distance etc.);
 
 ## Overview
