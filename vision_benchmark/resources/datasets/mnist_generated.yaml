@@ -1,0 +1,6 @@
+DATASET:
+  DATASET: mnist_generated
+  NUM_CLASSES: 10
+  ROOT: ../DATASET/mnist/
+TEST:
+  METRIC: accuracy

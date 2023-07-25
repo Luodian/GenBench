@@ -1,0 +1,6 @@
+DATASET:
+  DATASET: cifar-10_sd_generated_scaling_elevator_10
+  NUM_CLASSES: 10
+  ROOT: ../../DATASET/cifar10/
+TEST:
+  METRIC: accuracy

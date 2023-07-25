@@ -1,0 +1,8 @@
+# GPUS: (0,)
+
+DATASET:
+  DATASET: 'imagenet-r'
+  ROOT: '../DATASET/imagenet-r/'
+  NUM_CLASSES: 200
+TEST:
+  METRIC: 'accuracy'

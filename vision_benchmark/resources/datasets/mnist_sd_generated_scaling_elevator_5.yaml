@@ -1,0 +1,6 @@
+DATASET:
+  DATASET: mnist_sd_generated_scaling_elevator_5
+  NUM_CLASSES: 10
+  ROOT: ../DATASET/mnist/
+TEST:
+  METRIC: accuracy

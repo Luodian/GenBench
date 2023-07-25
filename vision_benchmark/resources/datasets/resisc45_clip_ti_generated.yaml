@@ -1,0 +1,6 @@
+DATASET:
+  DATASET: resisc45_clip_ti_generated
+  NUM_CLASSES: 45
+  ROOT: ../DATASET/resisc45_clip/
+TEST:
+  METRIC: accuracy

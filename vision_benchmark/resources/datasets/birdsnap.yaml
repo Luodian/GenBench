@@ -1,0 +1,8 @@
+# GPUS: (0,)
+
+DATASET:
+  DATASET: 'birdsnap'
+  ROOT: '../DATASET/birdsnap/'
+  NUM_CLASSES: 500
+TEST:
+  METRIC: 'accuracy'

@@ -1,0 +1,8 @@
+# GPUS: (0,)
+
+DATASET:
+  DATASET: 'caltech-256'
+  ROOT: '../DATASET/caltech-256/'
+  NUM_CLASSES: 257
+TEST:
+  METRIC: 'accuracy'

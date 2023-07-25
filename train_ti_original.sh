@@ -1,0 +1,13 @@
+python -m train_textual_inversion \
+    --pretrained_model_name_or_path=stabilityai/stable-diffusion-2-1-base \
+    --dataset_name=all --dataset_type=original \
+    --train_data_dir=/home/v-boli7/azure_storage/cvinwild/ic_benchmark/bamboo_vitb16/Original_5shots \
+    --learnable_property=simple --placeholder_token=\<all\> --initializer_token=entity \
+    --resolution=512 --train_batch_size=8 --gradient_accumulation_steps=1 \
+    --repeats=5 --checkpointing_steps=5000 --max_train_steps=5000 --learning_rate=5e-4 \
+    --scale_lr --lr_scheduler=cosine_with_restarts --lr_warmup_steps=100 \
+    --wandb_name=ti_original/cosine_scheduler \
+    --output_dir=/home/v-boli7/azure_storage/models/ti_original_1ktokens \
+    --mixed_precision=fp16 --allow_tf32 --enable_xformers_memory_efficient_attention --report_to=wandb \
+    --validation_prompt=a\ photo\ of\ my\ \<voc-2007-classification\>\ horse\ \
+    --validation_prompt=a\ black\ and\ white\ photo\ of\ a\ \<cifar-10\>\ airplane\ 
